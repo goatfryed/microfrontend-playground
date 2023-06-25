@@ -10,7 +10,7 @@ export default defineConfig({
   ],
   server: {
     port: 19911,
-    hmr: false,
+    hmr: true,
     proxy: {
       '/api': {
         target: 'http://localhost:19912',
@@ -24,6 +24,7 @@ export default defineConfig({
               globals: {
                 "react": "React",
                 "react-dom": "ReactDOM",
+                // "/@react-refresh": "ReactRefresh" // globals are build only, so can't do
               }
           }
       }
