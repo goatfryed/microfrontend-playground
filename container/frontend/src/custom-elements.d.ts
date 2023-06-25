@@ -7,6 +7,10 @@ declare global {
                 React.HTMLAttributes<HTMLElement>,
                 HTMLElement
             >;
+            'goatfryed-mfs-app-two': React.DetailedHTMLProps<
+                React.HTMLAttributes<HTMLElement>,
+                HTMLElement
+            >;
         }
     }
 }

@@ -1,0 +1,22 @@
+{
+  "name": "codesandbox-template-vite",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "dev:host": "vite build --watch",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "vue": "^3.3.4"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.0",
+    "bulma": "^0.9.4",
+    "sass": "^1.63.6",
+    "typescript": "^5.1",
+    "vite": "^4.3"
+  }
+}

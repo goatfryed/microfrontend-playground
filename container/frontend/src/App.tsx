@@ -14,6 +14,7 @@ function App() {
             </div>
         </section>
         <goatfryed-mfs-app-one />
+        <goatfryed-mfs-app-two />
     </>
   );
 }
