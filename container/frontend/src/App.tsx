@@ -13,6 +13,7 @@ function App() {
                 Hello micro frontends
             </div>
         </section>
+        <goatfryed-mfs-app-one />
     </>
   );
 }
